@@ -1,4 +1,4 @@
-# newbie-kit
+# vue-newbie-kit
 
 ## Project setup
 ```
