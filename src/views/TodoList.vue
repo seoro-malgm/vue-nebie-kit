@@ -1,4 +1,10 @@
 <template>
+  <!-- 
+  1. Vue는 템플릿 문법을 사용합니다 https://kr.vuejs.org/v2/guide/syntax.html
+  2. template 태그 안에 html 코드를 넣습니다
+  3. template 안에 template 태그를 또 사용할 수도 있습니다.
+  4. 최상단의 template 태그는 자식 태그가 단 하나만 올 수 있습니다.
+  -->
   <div>
     <header>
       <h1>{}의 TO DO LIST</h1>
