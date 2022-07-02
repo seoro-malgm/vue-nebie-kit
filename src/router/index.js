@@ -10,6 +10,7 @@ import HomeView from "../views/HomeView.vue";
 import CafeMenu from "@/views/CafeMenu.vue"; // @는 src에서 시작한다는 뜻이다
 import CafeAdmin from "@/views/CafeAdmin"; // 확장자는 생략할 수 있다
 import NetflixApp from "@/views/NetflixApp"; // 확장자는 생략할 수 있다
+import DarkMode from "@/views/DarkMode";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/cafe-admin",
     name: "cafe-admin",
     component: CafeAdmin,
+  },
+  {
+    path: "/dark-mode",
+    name: "dark-mode",
+    component: DarkMode,
   },
   {
     path: "/netflix",
